@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>voice drum</title>
+        <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <script src="./JS/index.js"></script>
+        
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><button id="A" class="A circle" type="button"  onclick="A()">A</button></td>
+                <td><button id="B" class="B circle" type="button"  onclick="B()">B</button></td>
+                <td><button id="C" class="C circle" type="button"  onclick="C()">C</button></td>
+            </tr>
+            <tr>
+                <td><button id="D" class="D circle" type="button"  onclick="D()">D</button></td>
+                <td><button id="E" class="E circle" type="button"  onclick="E()">E</button></td>
+                <td><button id="F" class="F circle" type="button"  onclick="F()">F</button></td>
+            </tr>
+        </table>
+        <br>
+        <div class="center">
+            <button type="button"  onclick = "recordingStart()">start</button>
+            <button type="button"  onclick = "recordingStop()">stop</button>
+            <br>
+            <select id="drum-number">
+                <option value="0">DrumA</option>
+                <option value="1">DrumB</option>
+                <option value="2">DrumC</option>
+                <option value="3">DrumD</option>
+                <option value="4">DrumE</option>
+                <option value="5">DrumF</option>
+            </select>
+        </div>
+    </body>
+</html>
