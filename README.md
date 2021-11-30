@@ -1,2 +1,2 @@
 # Voice Drum
-You can recorde your viuce.
+You can recorde your voice.
